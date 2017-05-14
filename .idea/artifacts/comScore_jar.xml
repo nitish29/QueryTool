@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="comScore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/comScore_jar</output-path>
+    <root id="archive" name="comScore.jar">
+      <element id="module-output" name="comScore" />
+      <element id="library" level="project" name="java" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-cli-1.4/commons-cli-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-cli-1.4/commons-cli-1.4-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-cli-1.4/commons-cli-1.4-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-cli-1.4/commons-cli-1.4-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-cli-1.4/commons-cli-1.4-test-sources.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
