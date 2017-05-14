@@ -89,14 +89,14 @@ Further operations supported by the tool are:
 > **Note:** If filter and order arugments are provided while making the query, first filtering would be performed and then ordering of records would take place.
 
 
-
 ***Operations in brief:***
 | Request Type | CLI Operator | Example Query |
 |---------|----------------|--------|
-| `Import` | `-i`      | ```$ java -jar comScore.jar -i /a/b/c/test_file.txt```
-| `Select` | `-s`      | ```$ java -jar comScore.jar -s TITLE,REV,DATE```
-| `Filter`| `-f` | ```$ java -jar comScore.jar -f DATE=2014-04-02```
-| `Order` | `-o` | ```$ java -jar comScore.jar -o DATE,TITLE```
+| `Import` | `-i`      | ```$ java -jar comScore.jar -i /a/b/c/test_file.txt```|
+| `Select` | `-s`      | ```$ java -jar comScore.jar -s TITLE,REV,DATE```|
+| `Filter`| `-f` | ```$ java -jar comScore.jar -f DATE=2014-04-02```|
+| `Order` | `-o` | ```$ java -jar comScore.jar -o DATE,TITLE```|
+
 
 ***Supported Attributes:***
 | Attribute | Description | 
@@ -113,6 +113,6 @@ Further operations supported by the tool are:
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-[Commons CLI] : <https://commons.apache.org/proper/commons-cli/>
+[Commons CLI]: <https://commons.apache.org/proper/commons-cli/>
    
 
