@@ -10,7 +10,7 @@ This tool uses an external apache lirary, [Commons CLI], which provides an API f
 
 I have created an executable **jar** file, **comScore.jar** that accepts CLI arguments to perform import and query operations. 
 
-Before we can use the tool to perform query operation, we need to create a data store. This tool accepts text file with a **.txt** extension. It then parses this file line-by-line to create a file under a **datastore** directory with file name as **stbid_date_title.txt**, where the **stbid**, **date** and **title** are unique for each file. Each line parse is used to generate this new file and store data in it. While importing, if a file already exists with the same **stbid**, **date** and **title**, the contents of that file will be overwritten. 
+Before we can use the tool to perform query operation, we need to create a data store. This tool accepts a text file with a **.txt** extension. It then parses this file line-by-line to create a file under a `datastore` directory with file name as **stbid_date_title.txt**, where the **stbid**, **date** and **title** are unique for each file. Each line parse is used to generate this new file and store data in it. While importing, if a file already exists with the same **stbid**, **date** and **title**, the contents of that file will be overwritten.
 
 Command to import the text file is:
 ```sh

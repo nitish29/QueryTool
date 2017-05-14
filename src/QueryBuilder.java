@@ -205,7 +205,7 @@ public class QueryBuilder {
      * The order string can be provided by specifying -o parameter followed by the order when making the query.
      *
      *
-     * Example query: java comScore.jar  -o TITLE, DATE [this would first order the records first by DATE and then by TITLE]
+     * Example query: java comScore.jar  -o TITLE, DATE [this would order the records first by DATE and then by TITLE]
      *
      * @param order - a comma separated string of attributes
      * @param records - the records that need to be ordered, passed as a List
