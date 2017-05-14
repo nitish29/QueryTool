@@ -99,6 +99,18 @@ Further operations supported by the tool are:
 | `Order` | `-o` | ```$ java -jar comScore.jar -o DATE,TITLE```|
 
 
+***Supported Attributes:***
+
+| Attribute | Description | 
+|---------|----------------|
+| `STB` | `The set top box id on which the media asset was viewed. (Text, max size 64 char)`| 
+| `TITLE` | `TThe title of the media asset. (Text, max size 64 char)`| 
+| `PROVIDER` | `The distributor of the media asset. (Text, max size 64 char)`| 
+| `DATE` | `The local date on which the content was leased by through the STB (A date in YYYY-MM-DD format)`| 
+| `REV` | `The price incurred by the STB to lease the asset. (Price in US dollars and cents)`| 
+| `VIEW_TIME` | `The amount of time the STB played the asset.  (Time in hours:minutes)`| 
+
+
 ----
 
 
