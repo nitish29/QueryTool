@@ -58,11 +58,13 @@ Further operations supported by the tool are:
         ```
         
         ```sh
-        $ java -jar comScore.jar -f TITLE-"the matrix"
+        $ java -jar comScore.jar -f TITLE="the matrix"
         
         stb1,the matrix,warner bros,2014-04-01,4.00,1:30
         stb3,the matrix,warner bros,2014-04-02,4.00,2:05
         ```
+
+        > **Note:** Enclose the `value` field within double quotes `"` if the value contains `space`. In the above example `"the matrix"` value has a space, hence it is enclosed with double quotes.
             
 - **Order:** Order operation is used to perform ordering of records filtering based on single/multiple attributes provided by the user. The ordering is performed `right to left` i.e. from last order attribute to first order attribute provided. 
     - We use `-o` argument to specify the ordering.

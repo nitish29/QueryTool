@@ -129,7 +129,6 @@ public class QueryBuilder {
 
 
         String[] filters = filterOptions.split(",");
-        //TODO:See if LinkedHashMap is required or not, can be done with ArrayList/Set
         Map<Record.Attribute, String> filtersMap = new LinkedHashMap<Record.Attribute, String>();
 
 
